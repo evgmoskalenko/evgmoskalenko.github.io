@@ -1,5 +1,10 @@
+@import "font-awesome";
+
 * {
   box-sizing: border-box; }
+
+@import url(../vendor/font-awesome/css/font-awesome.min.css);
+@import url(../vendor/social-likes/social-likes_birman.css);
 
 body {
   padding: 0;
@@ -52,6 +57,10 @@ a {
     .btn + .btn {
       margin-top: 1rem;
       margin-left: 0; } }
+
+.page-header {
+    padding: 2rem 3rem;
+}
 
 .page-header {
   color: #fff;
