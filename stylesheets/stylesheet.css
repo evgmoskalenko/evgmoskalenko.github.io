@@ -54,7 +54,7 @@ a {
       margin-left: 0; } }
 
 .page-header {
-    padding: 2rem 3rem !important;
+    padding: 2rem 3rem 1rem 3rem !important;
 }
 
 .page-header {
@@ -73,6 +73,11 @@ a {
     -webkit-animation: fade-in 1.5s;
     -moz-animation: fade-in 1.5s;
     animation: fade-in 1.5s;
+}
+
+.social-links a i.fa {
+    color: #fff;
+    padding: 0 12px;
 }
 
 h1.me-name {
