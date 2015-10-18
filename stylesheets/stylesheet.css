@@ -275,6 +275,55 @@ h1.me-name {
   .site-footer {
     font-size: 0.9rem; } }
 
+/* Links */
+.link.__blue,
+.rich a.__blue,
+.__blue.rich_a,
+.link.__blue .link_u,
+.rich a.__blue .link_u,
+.__blue.rich_a .link_u {
+    border-bottom: 1px solid rgba(30, 107, 184, 0.55);
+    color: #1e6bb8;
+}
+.link.__white,
+.rich a.__white,
+.__white.rich_a,
+.link.__white .link_u,
+.rich a.__white .link_u,
+.__white.rich_a .link_u {
+    border-bottom: 1px solid rgba(255,255,255,0.21);
+    color: rgba(255,255,255,1);
+}
+.link.__blue:hover,
+.rich a.__blue:hover,
+.link.__blue:hover .link_u,
+.rich a.__blue:hover .link_u,
+.link.__white:hover,
+.rich a.__white:hover,
+.link.__white:hover .link_u,
+.rich a.__white:hover .link_u,
+li.active a.link {
+    border-bottom: 1px solid rgba(73, 129, 222, 0.25);
+    color: #4981de;
+}
+.link.__white:hover,
+.rich a.__white:hover,
+.link.__white:hover .link_u,
+.rich a.__white:hover .link_u {
+    border-bottom: 1px solid rgba(232, 232, 232, 0.15);
+    color: rgba(255,255,255,0.5);
+}
+.link, .rich a {
+    cursor: pointer;
+}
+.link, .link_u, a:hover, a:focus {
+    text-decoration: none;
+}
+.link.__none, .__none, .rich a.__none, .__none.rich_a {
+    border-bottom: none !important;
+    text-decoration: none !important;
+}
+
 /* Social Likes */
 .social-likes {
     width: 100%;
