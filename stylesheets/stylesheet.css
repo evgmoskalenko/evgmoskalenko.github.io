@@ -334,6 +334,9 @@ li.active a.link {
     color: #fff !important;
     cursor: pointer;
 }
+.social-likes__counter {
+    border-left: 1px solid rgba(204, 204, 204, 0.41) !important;
+}
 .social-likes__widget_facebook, .social-likes__widget_facebook, .social-likes__widget_facebook,
 .social-likes__widget_twitter, .social-likes__widget_twitter, .social-likes__widget_twitter,
 .social-likes__widget_plusone, .social-likes__widget_plusone, .social-likes__widget_plusone {
