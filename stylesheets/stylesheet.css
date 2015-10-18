@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box; }
 
@@ -78,7 +79,11 @@ a {
 .social-links a i.fa {
     color: #fff;
     padding: 0 12px;
-    font-size: 16px;
+    font-size: 17px;
+}
+
+.social-links a i.fa:hover {
+    color: rgba(255, 255, 255, 0.55);
 }
 
 h1.me-name {
